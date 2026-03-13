@@ -1,0 +1,33 @@
+============================================================
+  ERROR ANALYSIS — Most Confused Class Pairs
+============================================================
+
+        forest  ->  buildings     (1225 errors)
+      Likely cause: visual similarity between 'forest' and 'buildings' — shared textures, colours, or spatial patterns.
+
+      mountain  ->  buildings     (1200 errors)
+      Likely cause: visual similarity between 'mountain' and 'buildings' — shared textures, colours, or spatial patterns.
+
+       glacier  ->  buildings     (1116 errors)
+      Likely cause: visual similarity between 'glacier' and 'buildings' — shared textures, colours, or spatial patterns.
+
+           sea  ->  buildings     (492 errors)
+      Likely cause: visual similarity between 'sea' and 'buildings' — shared textures, colours, or spatial patterns.
+
+        street  ->  glacier       (489 errors)
+      Likely cause: visual similarity between 'street' and 'glacier' — shared textures, colours, or spatial patterns.
+
+           sea  ->  glacier       (454 errors)
+      Likely cause: visual similarity between 'sea' and 'glacier' — shared textures, colours, or spatial patterns.
+
+     buildings  ->  glacier       (451 errors)
+      Likely cause: visual similarity between 'buildings' and 'glacier' — shared textures, colours, or spatial patterns.
+
+        street  ->  buildings     (424 errors)
+      Likely cause: visual similarity between 'street' and 'buildings' — shared textures, colours, or spatial patterns.
+
+        street  ->  forest        (403 errors)
+      Likely cause: visual similarity between 'street' and 'forest' — shared textures, colours, or spatial patterns.
+
+       glacier  ->  mountain      (373 errors)
+      Likely cause: visual similarity between 'glacier' and 'mountain' — shared textures, colours, or spatial patterns.
