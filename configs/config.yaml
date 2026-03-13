@@ -1,0 +1,77 @@
+project:
+  name: "Transfer-Learning-Image-Classifier"
+  seed: 42
+  device: "auto"
+
+data:
+  dataset_name: "puneet6060/intel-image-classification"
+  data_dir: "data"
+  image_size: 224
+  batch_size: 32
+  num_workers: 4
+  pin_memory: true
+  train_ratio: 0.70
+  val_ratio: 0.15
+  test_ratio: 0.15
+
+augmentation:
+  horizontal_flip: true
+  random_rotation: 15
+  random_resized_crop: true
+  crop_scale: [0.8, 1.0]
+  color_jitter:
+    brightness: 0.2
+    contrast: 0.2
+    saturation: 0.2
+    hue: 0.1
+
+model:
+  backbone: "efficientnet_b0"
+  pretrained: true
+  num_classes: 6
+  hidden_dim: 512
+  dropout: 0.5
+  class_names:
+    - "buildings"
+    - "forest"
+    - "glacier"
+    - "mountain"
+    - "sea"
+    - "street"
+
+training:
+  phase1:
+    epochs: 10
+    learning_rate: 0.001
+    weight_decay: 0.0001
+  phase2:
+    epochs: 10
+    learning_rate: 0.00001
+    weight_decay: 0.0001
+    unfreeze_from: -20
+  optimizer: "adam"
+  gradient_clip: 1.0
+  mixed_precision: true
+  early_stopping:
+    patience: 5
+    min_delta: 0.001
+  scheduler:
+    factor: 0.5
+    patience: 3
+
+baseline:
+  epochs: 20
+  learning_rate: 0.001
+  weight_decay: 0.0001
+
+paths:
+  models: "outputs/models"
+  plots: "outputs/plots"
+  reports: "outputs/reports"
+  gradcam: "outputs/gradcam"
+  logs: "outputs/logs"
+  tensorboard: "outputs/tensorboard"
+
+mlflow:
+  tracking_uri: "outputs/mlruns"
+  experiment_name: "intel-image-classification"
