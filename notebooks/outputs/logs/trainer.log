@@ -1,0 +1,18 @@
+2026-03-13 22:14:42 | trainer | INFO | [phase1] Epoch 1/10
+2026-03-13 22:25:52 | trainer | INFO |   train_loss=0.4548  train_acc=0.8367  val_loss=0.2928  val_acc=0.8919
+2026-03-13 22:25:52 | trainer | INFO |   New best val_acc: 0.8919 — checkpoint saved
+2026-03-13 22:25:52 | trainer | INFO | [phase1] Epoch 2/10
+2026-03-13 22:37:35 | trainer | INFO |   train_loss=0.3782  train_acc=0.8633  val_loss=0.2678  val_acc=0.8962
+2026-03-13 22:37:35 | trainer | INFO |   New best val_acc: 0.8962 — checkpoint saved
+2026-03-13 22:37:35 | trainer | INFO | [phase1] Epoch 3/10
+2026-03-13 22:39:00 | trainer | INFO | [phase1] Epoch 1/10
+2026-03-13 22:52:59 | trainer | INFO |   train_loss=0.4493  train_acc=0.8364  val_loss=0.2956  val_acc=0.8913
+2026-03-13 22:52:59 | trainer | INFO |   New best val_acc: 0.8913 — checkpoint saved
+2026-03-13 22:52:59 | trainer | INFO | [phase1] Epoch 2/10
+2026-03-13 23:08:19 | trainer | INFO |   train_loss=0.3805  train_acc=0.8604  val_loss=0.2665  val_acc=0.9066
+2026-03-13 23:08:20 | trainer | INFO |   New best val_acc: 0.9066 — checkpoint saved
+2026-03-13 23:08:20 | trainer | INFO | [phase1] Epoch 3/10
+2026-03-14 06:09:55 | trainer | INFO | [phase1] Epoch 1/10
+2026-03-14 06:25:08 | trainer | INFO | [phase1] Epoch 1/10
+2026-03-14 06:47:26 | trainer | INFO | [phase2] Epoch 1/10
+2026-03-14 06:48:54 | trainer | INFO | [phase2] Epoch 1/10

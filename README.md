@@ -97,6 +97,14 @@ Explore the codebase and results step-by-step using the provided Jupyter noteboo
 jupyter notebook notebooks/training_pipeline.ipynb
 ```
 
+**Web UI (inference + Grad-CAM)**:
+Run a local Gradio app to upload images and see predictions plus Grad-CAM heatmaps. Requires a trained model first (`best_phase2.pth`).
+```bash
+pip install gradio   # if not already installed
+python app.py
+```
+Then open http://localhost:7860 in your browser.
+
 ## Skills & Technologies
 
 *   **Deep Learning**: PyTorch, TorchVision, TIMM

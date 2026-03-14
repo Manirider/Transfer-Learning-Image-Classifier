@@ -1,0 +1,29 @@
+2026-03-13 22:09:08 | data_loader | INFO | Downloading dataset: puneet6060/intel-image-classification
+2026-03-13 22:09:10 | data_loader | INFO | Dataset downloaded to: C:\Users\Anonymous\.cache\kagglehub\datasets\puneet6060\intel-image-classification\versions\2
+2026-03-13 22:09:37 | data_loader | INFO | Dataset split statistics:
+2026-03-13 22:09:37 | data_loader | INFO |   train: 11920 images — {'buildings': 1839, 'forest': 1921, 'glacier': 2069, 'mountain': 2125, 'sea': 1948, 'street': 2018}
+2026-03-13 22:09:37 | data_loader | INFO |   val: 2552 images — {'buildings': 394, 'forest': 411, 'glacier': 443, 'mountain': 455, 'sea': 417, 'street': 432}
+2026-03-13 22:09:37 | data_loader | INFO |   test: 2562 images — {'buildings': 395, 'forest': 413, 'glacier': 445, 'mountain': 457, 'sea': 419, 'street': 433}
+2026-03-13 22:09:45 | data_loader | INFO | Loaders ready — train: 11920, val: 2552, test: 2562
+2026-03-13 22:11:43 | data_loader | INFO | Downloading dataset: puneet6060/intel-image-classification
+2026-03-13 22:11:44 | data_loader | INFO | Dataset downloaded to: C:\Users\Anonymous\.cache\kagglehub\datasets\puneet6060\intel-image-classification\versions\2
+2026-03-13 22:12:10 | data_loader | INFO | Downloading dataset: puneet6060/intel-image-classification
+2026-03-13 22:12:11 | data_loader | INFO | Dataset downloaded to: C:\Users\Anonymous\.cache\kagglehub\datasets\puneet6060\intel-image-classification\versions\2
+2026-03-13 22:13:23 | data_loader | INFO | Dataset split statistics:
+2026-03-13 22:13:23 | data_loader | INFO |   train: 11920 images — {'buildings': 1839, 'forest': 1921, 'glacier': 2069, 'mountain': 2125, 'sea': 1948, 'street': 2018}
+2026-03-13 22:13:23 | data_loader | INFO |   val: 2552 images — {'buildings': 394, 'forest': 411, 'glacier': 443, 'mountain': 455, 'sea': 417, 'street': 432}
+2026-03-13 22:13:23 | data_loader | INFO |   test: 2562 images — {'buildings': 395, 'forest': 413, 'glacier': 445, 'mountain': 457, 'sea': 419, 'street': 433}
+2026-03-13 22:14:18 | data_loader | INFO | Loaders ready — train: 22001, val: 4710, test: 4729
+2026-03-14 06:06:42 | data_loader | INFO | Downloading dataset: puneet6060/intel-image-classification
+2026-03-14 06:06:46 | data_loader | INFO | Dataset downloaded to: C:\Users\Anonymous\.cache\kagglehub\datasets\puneet6060\intel-image-classification\versions\2
+2026-03-14 06:08:18 | data_loader | INFO | Dataset split statistics:
+2026-03-14 06:08:18 | data_loader | INFO |   train: 11920 images — {'buildings': 1839, 'forest': 1921, 'glacier': 2069, 'mountain': 2125, 'sea': 1948, 'street': 2018}
+2026-03-14 06:08:18 | data_loader | INFO |   val: 2552 images — {'buildings': 394, 'forest': 411, 'glacier': 443, 'mountain': 455, 'sea': 417, 'street': 432}
+2026-03-14 06:08:18 | data_loader | INFO |   test: 2562 images — {'buildings': 395, 'forest': 413, 'glacier': 445, 'mountain': 457, 'sea': 419, 'street': 433}
+2026-03-14 06:08:33 | data_loader | INFO | Loaders ready — train: 33921, val: 7262, test: 7291
+2026-03-14 07:58:43 | data_loader | INFO | Downloading dataset: puneet6060/intel-image-classification
+2026-03-14 07:58:44 | data_loader | INFO | Dataset downloaded to: C:\Users\Anonymous\.cache\kagglehub\datasets\puneet6060\intel-image-classification\versions\2
+2026-03-14 08:01:28 | data_loader | INFO | Dataset split statistics:
+2026-03-14 08:01:28 | data_loader | INFO |   train: 11920 images — {'buildings': 1839, 'forest': 1921, 'glacier': 2069, 'mountain': 2125, 'sea': 1948, 'street': 2018}
+2026-03-14 08:01:28 | data_loader | INFO |   val: 2552 images — {'buildings': 394, 'forest': 411, 'glacier': 443, 'mountain': 455, 'sea': 417, 'street': 432}
+2026-03-14 08:01:28 | data_loader | INFO |   test: 2562 images — {'buildings': 395, 'forest': 413, 'glacier': 445, 'mountain': 457, 'sea': 419, 'street': 433}
